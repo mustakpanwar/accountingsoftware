@@ -4030,19 +4030,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Salmaan\\.nuget\\packages\\": {}
+    "/Users/mustakpanwar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.API\\AccountingSystem.API.csproj",
+      "projectUniqueName": "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.API/AccountingSystem.API.csproj",
       "projectName": "AccountingSystem.API",
-      "projectPath": "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.API\\AccountingSystem.API.csproj",
-      "packagesPath": "C:\\Users\\Salmaan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.API\\obj\\",
+      "projectPath": "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.API/AccountingSystem.API.csproj",
+      "packagesPath": "/Users/mustakpanwar/.nuget/packages/",
+      "outputPath": "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Salmaan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mustakpanwar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4054,11 +4054,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.Application\\AccountingSystem.Application.csproj": {
-              "projectPath": "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.Application\\AccountingSystem.Application.csproj"
+            "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.Application/AccountingSystem.Application.csproj": {
+              "projectPath": "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.Application/AccountingSystem.Application.csproj"
             },
-            "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Salmaan\\Desktop\\AccountingSystem\\AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj"
+            "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.Infrastructure/AccountingSystem.Infrastructure.csproj": {
+              "projectPath": "/Users/mustakpanwar/Projects/accountingsoftware/AccountingSystem.Infrastructure/AccountingSystem.Infrastructure.csproj"
             }
           }
         }
@@ -4072,7 +4072,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4116,6 +4117,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4124,7 +4139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
